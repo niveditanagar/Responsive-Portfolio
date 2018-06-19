@@ -119,6 +119,7 @@ a {
     margin-left: 20px;
     margin-right: 20px; 
     height: 20px; 
+    
 }
 
 #messageStyle {
@@ -152,10 +153,119 @@ hr {
     left: 50%;
     transform: translate(-3%, -30%);
     color: white;
-    height: 60px;
+    height: auto;
     width: 90%;
     float: right;
     background-color: #4eaaa4;
     margin-top: -85px;
     margin-left: -90px;
 }
+
+@media screen and (max-width: 980px) {
+    #outernav{
+        width: auto;
+    }
+
+    .whiteNavBar {
+        width: 80%;
+        
+    }
+
+    body {
+        color: #777777;
+    }
+
+    #maincontent {
+        width: 80%;
+           
+    }
+
+    h2 {
+        color: black;
+        
+    }
+
+    .textField {
+        border-color: black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #outernav{
+        width: auto;   
+    }
+
+    .whiteNavBar {
+        width: 90%;
+    }
+
+    body {
+        color: #777777;
+    }
+
+    #maincontent {
+        width: 90%;
+    }
+
+    .textField {
+        border-color: black;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #outernav{
+        width: auto;
+        position:static;
+    }
+
+    .whiteNavBar {
+        width: 50%;
+        position:static;
+        
+    }
+    
+    .rightNavBar{
+        position: static;
+        width: 100%;
+        text-align: center;
+    } 
+
+    body {
+        color: #777777;
+    }
+
+    #maincontent {
+        width: 90%;
+        margin-bottom: 80%;
+    }
+
+    .textField {
+        border-color: black;
+    }
+
+    #leftNavBar {
+        padding: 5%;
+        width: 100%;    
+          
+    }
+
+    #pictureOfMe {
+        width: 85%;
+    }
+
+    td {
+        display: block;
+    }
+
+   .gunner {
+       height: auto;
+       width: 75%;
+   }
+
+    .photoText {
+        height: auto;
+        
+    }
+}
+
+
